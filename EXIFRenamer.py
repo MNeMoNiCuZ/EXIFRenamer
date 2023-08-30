@@ -1,9 +1,42 @@
+# Check for required packages and install if necessary
+required_packages = {'PIL': 'Pillow', 'configparser': 'configparser'}
+
+for package, install_name in required_packages.items():
+    try:
+        __import__(package)
+    except ImportError:
+        print(f"Package {package} is not installed.")
+        install_prompt = input(f"Do you want to install {package}? (y/n): ")
+        if install_prompt.lower() == 'y':
+            import subprocess
+            subprocess.run(["pip", "install", install_name])
+        else:
+            print(f"Exiting. {package} is required to run this program.")
+            exit()
+
 from PIL import Image
 import os
 import sys
 import re
 import configparser
-from pathlib import Path
+
+# Mapping from full technical names to user-friendly names
+name_mapping = {
+    'Positive': 'Positive',
+    'Negative': 'Negative',
+    'Steps': 'Steps',
+    'Sampler': 'Sampler',
+    'CFG scale': 'CFG',
+    'Seed': 'Seed',
+    'Size': 'Size',
+    'Model': 'Model',
+    'Denoising strength': 'Denoise',
+    'Clip skip': 'Clip',
+    'Hires upscale': 'Hires',
+    'Hires steps': 'HiresSteps',
+    'Hires upscaler': 'HiresUpscaler',
+    'Lora hashes': 'Loras'
+}
 
 # Initialize or clear the log file
 def initialize_log():
@@ -16,18 +49,26 @@ def log_activity(message):
     with open("rename_log.txt", "a") as log_file:
         log_file.write(message + "\n")
 
-
+# Read settings file
 def read_settings():
     config = configparser.ConfigParser()
     config.read('settings.ini')
+    settings = {}
     try:
-        delimiter = config.get('Settings', 'delimiter')
-        # Remove quotes around the delimiter
-        delimiter = delimiter.strip('"')
-        return sanitize_filename(delimiter)
+        settings['delimiter'] = config.get('Settings', 'delimiter').strip('"')
     except (configparser.NoSectionError, configparser.NoOptionError):
-        print("Failed to read settings.ini, using default delimiter '_'")
-        return '_'
+        print("Failed to read delimiter from settings.ini, using default delimiter '_'")
+        settings['delimiter'] = '_'
+
+    try:
+        settings['keep_original_name'] = config.getboolean('Settings', 'KeepOriginalName')
+    except (configparser.NoSectionError, configparser.NoOptionError):
+        print("Failed to read KeepOriginalName from settings.ini, using default True")
+        settings['keep_original_name'] = True
+
+    return settings
+
+
 
 def get_dragged_items():
     return sys.argv[1:]
@@ -98,25 +139,7 @@ def parse_exif(exif_data):
 
 
 # Updated get_user_choice function for cleaner display
-def get_user_choice(parsed_data):
-    # Mapping from full technical names to user-friendly names
-    name_mapping = {
-        'Positive': 'Positive',
-        'Negative': 'Negative',
-        'Steps': 'Steps',
-        'Sampler': 'Sampler',
-        'CFG scale': 'CFG',
-        'Seed': 'Seed',
-        'Size': 'Size',
-        'Model': 'Model',
-        'Denoising strength': 'Denoise',
-        'Clip skip': 'Clip',
-        'Hires upscale': 'Hires',
-        'Hires steps': 'HiresSteps',
-        'Hires upscaler': 'HiresUpscaler',
-        'Lora hashes': 'Loras'
-    }
-    
+def get_user_choice(parsed_data, keep_original_name): 
     available_keys = list(name_mapping.values())
     
     while True:
@@ -136,45 +159,62 @@ def get_user_choice(parsed_data):
         except ValueError:
             print("Invalid input. Please enter a number.")
     
-    while True:
-        print("Choose the position:")
-        print("1. Prefix")
-        print("2. Suffix")
-        try:
-            position_choice = int(input("Enter your choice (1/2): "))
-            if position_choice in [1, 2]:
-                position = "Prefix" if position_choice == 1 else "Suffix"
-                break
-            else:
-                print("\n\nInvalid choice. Please enter either 1 or 2.\n\n")
-        except ValueError:
-            print("\n\nInvalid input. Please enter a number.\n\n")
+    if keep_original_name:
+        while True:
+            print("Choose the position:")
+            print("1. Prefix")
+            print("2. Suffix")
+            try:
+                position_choice = int(input("Enter your choice (1/2): "))
+                if position_choice in [1, 2]:
+                    position = "Prefix" if position_choice == 1 else "Suffix"
+                    break
+                else:
+                    print("\n\nInvalid choice. Please enter either 1 or 2.\n\n")
+            except ValueError:
+                print("\n\nInvalid input. Please enter a number.\n\n")
 
-    return chosen_key, position
+        return chosen_key, position
+    else:
+        return chosen_key, None
 
 
 
 def sanitize_filename(filename):
     return re.sub(r'[\\/*?:"<>|]', '', filename)
 
-def rename_files(directory, filenames, parsed_data, chosen_key, position, max_length=200):
-    delimiter = read_settings()
+def rename_files(directory, filenames, parsed_data, chosen_key, position, delimiter, keep_original_name, max_length=200):
     for filename in filenames:
         name, ext = os.path.splitext(filename)
         new_key_value = sanitize_filename(str(parsed_data[chosen_key]))
+
+        # Truncate the new_key_value if it's too long
         if len(new_key_value) > max_length:
             new_key_value = new_key_value[:max_length]
-        if position == "Prefix":
-            new_name = f"{new_key_value}{delimiter}{name}{ext}"
+
+        if not keep_original_name:
+            new_name = f"{new_key_value}{ext}"
         else:
-            new_name = f"{name}{delimiter}{new_key_value}{ext}"
+            if position == "Prefix":
+                new_name = f"{new_key_value}{delimiter}{name}{ext}"
+            else:
+                new_name = f"{name}{delimiter}{new_key_value}{ext}"
+
+        # Check for file name collision and resolve
+        counter = 1
+        original_new_name = new_name
+        while os.path.exists(os.path.join(directory, new_name)):
+            new_name = f"{original_new_name.split('.')[0]}_{counter}.{original_new_name.split('.')[1]}"
+            counter += 1
+
         try:
             os.rename(os.path.join(directory, filename), os.path.join(directory, new_name))
-            log_activity(f"File {os.path.join(directory, filename)} renamed to {os.path.join(directory, new_name)}")
+            print(f"\nFile {os.path.join(directory, filename)} renamed to {new_name}.")
+            log_activity(f"File {os.path.join(directory, filename)} renamed to {new_name}.")
         except Exception as e:
-            log_message = f"Could not rename {filename}. Error: {e}"
-            log_activity(log_message)
-            print(log_message)
+            print(f"Could not rename {filename}. Error: {e}")
+            log_activity(f"Could not rename {filename}. Error: {e}")
+
 
 # Function to find all files in a directory recursively
 def find_files_recursive(folder, file_ext):
@@ -195,80 +235,78 @@ def get_user_input_path():
 
 
 def main():
-# Mapping from full technical names to user-friendly names
-    name_mapping = {
-        'Positive': 'Positive',
-        'Negative': 'Negative',
-        'Steps': 'Steps',
-        'Sampler': 'Sampler',
-        'CFG scale': 'CFG',
-        'Seed': 'Seed',
-        'Size': 'Size',
-        'Model': 'Model',
-        'Denoising strength': 'Denoise',
-        'Clip skip': 'Clip',
-        'Hires upscale': 'Hires',
-        'Hires steps': 'HiresSteps',
-        'Hires upscaler': 'HiresUpscaler',
-        'Lora hashes': 'Loras'
-    }
-    initialize_log()
+    print("Script started.")
+    log_activity("Script started.")
+    log_activity(f"Settings: {read_settings()}")
     failed_files = []  # List to hold paths of files that couldn't be renamed
 
+    # Reading settings from settings.ini
+    settings = read_settings()
+    delimiter = settings['delimiter']
+    keep_original_name = settings['keep_original_name']
+
     dragged_items = get_dragged_items()
-    image_files = []
 
+    # If no files are dragged onto the script, ask the user for a directory or file path
     if not dragged_items:
-        user_input_path = get_user_input_path()
-        if os.path.isfile(user_input_path):
-            image_files.append(user_input_path)
-        elif os.path.isdir(user_input_path):
-            image_files.extend(find_files_recursive(user_input_path, '.png'))
-    else:
-        for item in dragged_items:
-            if os.path.isdir(item):
-                image_files.extend(find_files_recursive(item, '.png'))
-            else:
-                image_files.append(item)
+        user_input = input("Please enter the path to a file or directory: ").strip()
+        if os.path.exists(user_input):
+            dragged_items = [user_input]
+        else:
+            print("Invalid path. Exiting.")
+            return
 
+    if not check_file_count(dragged_items):
+        print("User chose not to proceed due to file count.")
+        return
+
+    # Get sample EXIF data for the user to choose from
+    image_files = []
+    for item in dragged_items:
+        if os.path.isdir(item):
+            image_files.extend(find_files_recursive(item, '.png'))
+        else:
+            image_files.append(item)
+    
     if not image_files:
-        print("No valid image files found. Exiting.")
-        log_activity("No valid image files found.")
+        print("No PNG files found. Exiting.")
         return
 
     sample_file = image_files[0]
     sample_exif_data = read_exif(sample_file)
     sample_parsed_data = parse_exif(sample_exif_data)
 
-    chosen_key, position = get_user_choice(sample_parsed_data)
+    chosen_key, position = get_user_choice(sample_parsed_data, keep_original_name)
 
     # Translate back to the full technical name
     chosen_technical_key = [tech_name for tech_name, user_name in name_mapping.items() if user_name == chosen_key][0]
 
-    for image_file in image_files:
-        exif_data = read_exif(image_file)
-        if exif_data is None:
-            print(f"Skipping file {image_file} due to lack of EXIF data.")
-            log_activity(f"Skipping file {image_file} due to lack of EXIF data.")
-            failed_files.append(image_file)
-            continue
-        parsed_data = parse_exif(exif_data)
-        old_name = os.path.basename(image_file)
-        rename_files(os.path.dirname(image_file), [old_name], parsed_data, chosen_technical_key, position)
-        new_name = old_name.replace(old_name, sanitize_filename(str(parsed_data[chosen_technical_key])))
-        print(f"Renamed {old_name} to {new_name}")
-        log_activity(f"Renamed {old_name} to {new_name}")
+    for item in dragged_items:
+        if os.path.isdir(item):
+            image_files = find_files_recursive(item, '.png')
+        else:
+            image_files = [item]
+
+        for image_file in image_files:
+            exif_data = read_exif(image_file)
+            if exif_data is None:
+                print(f"Skipping file {image_file} due to lack of EXIF data.")
+                failed_files.append(image_file)
+                continue
+
+            parsed_data = parse_exif(exif_data)
+            rename_files(os.path.dirname(image_file), [os.path.basename(image_file)], parsed_data, chosen_technical_key, position, delimiter, keep_original_name)
 
     print("Script finished.")
     if failed_files:
         print("\nThe following files could not be renamed due to lack of EXIF data:")
         for file in failed_files:
             print(file)
-    else:
-        print("All files were renamed successfully.")
     log_activity("Script finished.")
     print("Press any key to exit.")
     input()
+
+
 
 if __name__ == "__main__":
     main()

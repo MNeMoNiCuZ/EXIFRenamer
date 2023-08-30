@@ -1,2 +1,217 @@
 Rename Log
 ==================================================
+Script started.
+Script started.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\File.png renamed to 25_File.png.
+Script started.
+Script started.
+Script started.
+Script started.
+Script started.
+Script started.
+Script started.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\25_File.png renamed to Euler a.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\Euler a.png renamed to loraFr0gt0w3r-0000101 Fr0gt0w3r woman doing Museum visiting in whirlpool.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\loraFr0gt0w3r-0000101 Fr0gt0w3r woman doing Museum visiting in whirlpool.png renamed to Fr0gt0w3r-000010 dd0914a9b32e, Version v1.5.2.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\Fr0gt0w3r-000010 dd0914a9b32e, Version v1.5.2.png renamed to 4x-UltraSharp.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\4x-UltraSharp.png renamed to Euler a.png.
+File C:\AI\Scripts\EXIFRenamer\4x-UltraSharp - Copy.png renamed to Euler a_1.png.
+Script finished.
+Script started.
+Script started.
+Script started.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\Euler a_1.png renamed to 25.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\25.png renamed to  - 138834509.png.
+Script finished.
+Script started.
+File C:\AI\Scripts\EXIFRenamer\ - 138834509.png renamed to 138834509.png.
+Script finished.
+Script started.
+Settings: {'delimiter': ' - ', 'keep_original_name': False}
+Could not rename 05-05-2023 20.16.16.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.16.16.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler DPM++ SDE Karras, CFG scale 7, Seed 252321967.png'
+Could not rename 05-05-2023 20.16.21.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.16.21.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler DPM++ SDE Karras, CFG scale 7, Seed 252321967.png'
+Could not rename 05-05-2023 20.16.26.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.16.26.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler DPM++ SDE Karras, CFG scale 7, Seed 252321967.png'
+Could not rename 05-05-2023 20.16.31.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.16.31.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler DPM++ SDE Karras, CFG scale 7, Seed 252321967.png'
+Could not rename 05-05-2023 20.19.13.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.19.13.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\character sheet, female warrior, viking, valkyrie, freya\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2342351170, Size 768x768, Model hash 690cb24a47, Model spybgsToolkitFor_v50NoiseOffse.png'
+Could not rename 05-05-2023 20.19.22.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.19.22.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\character sheet, female warrior, viking, valkyrie, freya\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2342351171, Size 768x768, Model hash 690cb24a47, Model spybgsToolkitFor_v50NoiseOffse.png'
+Could not rename 05-05-2023 20.19.30.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.19.30.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\character sheet, female warrior, viking, valkyrie, freya\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2342351172, Size 768x768, Model hash 690cb24a47, Model spybgsToolkitFor_v50NoiseOffse.png'
+Could not rename 05-05-2023 20.19.42.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.19.42.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\character sheet, female warrior, viking, valkyrie, fairy viking, techno\nSteps 20, Sampler Euler a, CFG scale 7, Seed 735044469, Size 1024x1024, Model hash 690cb24a47, Model spybgsToolkitFor_v50NoiseOf.png'
+Could not rename 05-05-2023 20.19.55.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.19.55.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\character sheet, female warrior, viking, valkyrie, fairy viking, techno\nSteps 20, Sampler Euler a, CFG scale 7, Seed 735044470, Size 1024x1024, Model hash 690cb24a47, Model spybgsToolkitFor_v50NoiseOf.png'
+Could not rename 05-05-2023 20.20.01.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.20.01.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((male))) tk-char warrior, highly detailed, award winning image, 16k\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2763495954, Size 512x1024, Model hash 690cb24a47, Model spybgsToolkitFo.png'
+Could not rename 05-05-2023 20.20.07.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.20.07.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((male))) tk-char warrior, highly detailed, award winning image, 16k\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2763495955, Size 512x1024, Model hash 690cb24a47, Model spybgsToolkitFo.png'
+Could not rename 05-05-2023 20.20.14.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.20.14.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((male))) tk-char warrior, highly detailed, award winning image, 16k\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2763495956, Size 512x1024, Model hash 690cb24a47, Model spybgsToolkitFo.png'
+Could not rename 05-05-2023 20.20.20.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.20.20.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((male))) tk-char warrior, highly detailed, award winning image, 16k\nSteps 20, Sampler Euler a, CFG scale 7, Seed 2763495957, Size 512x1024, Model hash 690cb24a47, Model spybgsToolkitFo.png'
+Could not rename 05-05-2023 20.20.53.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.20.53.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) tk-char warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 283206849, Size 512x1024, Model hash 690cb24a47, Model spyb.png'
+Could not rename 05-05-2023 20.21.00.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.00.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) tk-char warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 283206850, Size 512x1024, Model hash 690cb24a47, Model spyb.png'
+Could not rename 05-05-2023 20.21.06.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.06.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) tk-char warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 283206851, Size 512x1024, Model hash 690cb24a47, Model spyb.png'
+Could not rename 05-05-2023 20.21.12.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.12.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) tk-char warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 283206852, Size 512x1024, Model hash 690cb24a47, Model spyb.png'
+Could not rename 05-05-2023 20.21.18.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.18.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 933014495, Size 512x1024, Model hash 690cb24a47, Model spybgsToolki.png'
+Could not rename 05-05-2023 20.21.25.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.25.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 933014496, Size 512x1024, Model hash 690cb24a47, Model spybgsToolki.png'
+Could not rename 05-05-2023 20.21.31.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.31.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 933014497, Size 512x1024, Model hash 690cb24a47, Model spybgsToolki.png'
+Could not rename 05-05-2023 20.21.37.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.21.37.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\photograph of (((female))) warrior, highly detailed, award winning image, 16k, colorful\nSteps 20, Sampler Euler a, CFG scale 7, Seed 933014498, Size 512x1024, Model hash 690cb24a47, Model spybgsToolki.png'
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.22.45.png renamed to a character turnaround of a female engineer wearing sports bra and shorts, 16k, colorful loracharturnerv21.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.03.png renamed to a character turnaround of a female engineer wearing sports bra and shorts, 16k, colorful loracharturnerv21_1.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.21.png renamed to a character turnaround of a female engineer wearing sports bra and shorts, 16k, colorful loracharturnerv21_2.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.39.png renamed to a character turnaround of a female engineer wearing sports bra and shorts, 16k, colorful loracharturnerv21_3.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.46.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0.5.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.53.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0_1.5.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.05.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0_2.5.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.11.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0_3.5.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.17.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0_4.5.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.23.png renamed to character sheet, photograph of (((female))) engineer, highly detailed, sci-fi, backpack with cables, item in hand, award winning image, 16k, colorful loracharturnerv21 loraSPBGTK-C-Enh0_5.5.
+Could not rename 05-05-2023 20.26.47.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.26.47.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an iron dagger, arcane mana aura energy smokes, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 910504420, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.26.51.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.26.51.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an iron dagger, arcane mana aura energy smokes, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 910504421, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.26.54.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.26.54.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an iron dagger, arcane mana aura energy smokes, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 910504422, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.26.57.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.26.57.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an iron dagger, arcane mana aura energy smokes, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 910504423, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.27.01.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.01.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 1974571154, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.27.04.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.04.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 1974571155, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.27.07.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.07.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 1974571156, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.27.11.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.11.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 1974571157, Size 512x512, Model .png'
+Could not rename 05-05-2023 20.27.14.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.14.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187163, Size 5.png'
+Could not rename 05-05-2023 20.27.17.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.17.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187164, Size 5.png'
+Could not rename 05-05-2023 20.27.21.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.21.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187165, Size 5.png'
+Could not rename 05-05-2023 20.27.24.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.24.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187166, Size 5.png'
+Could not rename 05-05-2023 20.27.27.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.27.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187167, Size 5.png'
+Could not rename 05-05-2023 20.27.31.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.31.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187168, Size 5.png'
+Could not rename 05-05-2023 20.27.34.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.34.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187169, Size 5.png'
+Could not rename 05-05-2023 20.27.37.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.37.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of an magycal dagger, knife, sword, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 3017187170, Size 5.png'
+Could not rename 05-05-2023 20.27.41.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.41.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952862, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.27.44.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.44.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952863, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.27.48.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.48.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952864, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.27.51.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.51.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952865, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.27.55.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.55.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952866, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.27.58.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.27.58.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952867, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.28.01.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.28.01.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952868, Size 512x512, Model hash 7b403a.png'
+Could not rename 05-05-2023 20.28.05.png. Error: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\05-05-2023 20.28.05.png' -> 'C:\\AI\\Scripts\\EXIFRenamer\\Dev\\Awesome RPG icon of a dildo, glowing, crystal, colorful, game asset trending on artstation, in a dark magic cave\nSteps 20, Sampler Euler a, CFG scale 7, Seed 720952869, Size 512x512, Model hash 7b403a.png'
+Script finished.
+Script started.
+Settings: {'delimiter': ' - ', 'keep_original_name': True}
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.16.16.png renamed to 2523219671 - 05-05-2023 20.16.16.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.16.21.png renamed to 2523219672 - 05-05-2023 20.16.21.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.16.26.png renamed to 2523219673 - 05-05-2023 20.16.26.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.16.31.png renamed to 2523219674 - 05-05-2023 20.16.31.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.19.13.png renamed to 2342351170 - 05-05-2023 20.19.13.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.19.22.png renamed to 2342351171 - 05-05-2023 20.19.22.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.19.30.png renamed to 2342351172 - 05-05-2023 20.19.30.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.19.42.png renamed to 735044469 - 05-05-2023 20.19.42.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.19.55.png renamed to 735044470 - 05-05-2023 20.19.55.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.20.01.png renamed to 2763495954 - 05-05-2023 20.20.01.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.20.07.png renamed to 2763495955 - 05-05-2023 20.20.07.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.20.14.png renamed to 2763495956 - 05-05-2023 20.20.14.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.20.20.png renamed to 2763495957 - 05-05-2023 20.20.20.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.20.53.png renamed to 283206849 - 05-05-2023 20.20.53.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.00.png renamed to 283206850 - 05-05-2023 20.21.00.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.06.png renamed to 283206851 - 05-05-2023 20.21.06.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.12.png renamed to 283206852 - 05-05-2023 20.21.12.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.18.png renamed to 933014495 - 05-05-2023 20.21.18.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.25.png renamed to 933014496 - 05-05-2023 20.21.25.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.31.png renamed to 933014497 - 05-05-2023 20.21.31.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.21.37.png renamed to 933014498 - 05-05-2023 20.21.37.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.22.45.png renamed to 751755346 - 05-05-2023 20.22.45.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.03.png renamed to 751755347 - 05-05-2023 20.23.03.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.21.png renamed to 751755348 - 05-05-2023 20.23.21.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.39.png renamed to 751755349 - 05-05-2023 20.23.39.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.46.png renamed to 2343117461 - 05-05-2023 20.23.46.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.23.53.png renamed to 2343117462 - 05-05-2023 20.23.53.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.05.png renamed to 2343117464 - 05-05-2023 20.24.05.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.11.png renamed to 3981570799 - 05-05-2023 20.24.11.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.17.png renamed to 3981570800 - 05-05-2023 20.24.17.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.24.23.png renamed to 3981570801 - 05-05-2023 20.24.23.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.26.47.png renamed to 910504420 - 05-05-2023 20.26.47.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.26.51.png renamed to 910504421 - 05-05-2023 20.26.51.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.26.54.png renamed to 910504422 - 05-05-2023 20.26.54.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.26.57.png renamed to 910504423 - 05-05-2023 20.26.57.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.01.png renamed to 1974571154 - 05-05-2023 20.27.01.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.04.png renamed to 1974571155 - 05-05-2023 20.27.04.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.07.png renamed to 1974571156 - 05-05-2023 20.27.07.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.11.png renamed to 1974571157 - 05-05-2023 20.27.11.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.14.png renamed to 3017187163 - 05-05-2023 20.27.14.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.17.png renamed to 3017187164 - 05-05-2023 20.27.17.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.21.png renamed to 3017187165 - 05-05-2023 20.27.21.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.24.png renamed to 3017187166 - 05-05-2023 20.27.24.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.27.png renamed to 3017187167 - 05-05-2023 20.27.27.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.31.png renamed to 3017187168 - 05-05-2023 20.27.31.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.34.png renamed to 3017187169 - 05-05-2023 20.27.34.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.37.png renamed to 3017187170 - 05-05-2023 20.27.37.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.41.png renamed to 720952862 - 05-05-2023 20.27.41.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.44.png renamed to 720952863 - 05-05-2023 20.27.44.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.48.png renamed to 720952864 - 05-05-2023 20.27.48.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.51.png renamed to 720952865 - 05-05-2023 20.27.51.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.55.png renamed to 720952866 - 05-05-2023 20.27.55.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.27.58.png renamed to 720952867 - 05-05-2023 20.27.58.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.28.01.png renamed to 720952868 - 05-05-2023 20.28.01.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\05-05-2023 20.28.05.png renamed to 720952869 - 05-05-2023 20.28.05.png.
+Script finished.
+Script started.
+Settings: {'delimiter': ' - ', 'keep_original_name': False}
+File C:\AI\Scripts\EXIFRenamer\Dev\1974571154 - 05-05-2023 20.27.01.png renamed to Euler a.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\1974571155 - 05-05-2023 20.27.04.png renamed to Euler a_1.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\1974571156 - 05-05-2023 20.27.07.png renamed to Euler a_2.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\1974571157 - 05-05-2023 20.27.11.png renamed to Euler a_3.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2342351170 - 05-05-2023 20.19.13.png renamed to Euler a_4.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2342351171 - 05-05-2023 20.19.22.png renamed to Euler a_5.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2342351172 - 05-05-2023 20.19.30.png renamed to Euler a_6.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2343117461 - 05-05-2023 20.23.46.png renamed to Euler a_7.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2343117462 - 05-05-2023 20.23.53.png renamed to Euler a_8.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2343117464 - 05-05-2023 20.24.05.png renamed to Euler a_9.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2523219671 - 05-05-2023 20.16.16.png renamed to DPM++ SDE Karras.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2523219672 - 05-05-2023 20.16.21.png renamed to DPM++ SDE Karras_1.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2523219673 - 05-05-2023 20.16.26.png renamed to DPM++ SDE Karras_2.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2523219674 - 05-05-2023 20.16.31.png renamed to DPM++ SDE Karras_3.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2763495954 - 05-05-2023 20.20.01.png renamed to Euler a_10.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2763495955 - 05-05-2023 20.20.07.png renamed to Euler a_11.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2763495956 - 05-05-2023 20.20.14.png renamed to Euler a_12.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\2763495957 - 05-05-2023 20.20.20.png renamed to Euler a_13.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\283206849 - 05-05-2023 20.20.53.png renamed to Euler a_14.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\283206850 - 05-05-2023 20.21.00.png renamed to Euler a_15.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\283206851 - 05-05-2023 20.21.06.png renamed to Euler a_16.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\283206852 - 05-05-2023 20.21.12.png renamed to Euler a_17.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187163 - 05-05-2023 20.27.14.png renamed to Euler a_18.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187164 - 05-05-2023 20.27.17.png renamed to Euler a_19.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187165 - 05-05-2023 20.27.21.png renamed to Euler a_20.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187166 - 05-05-2023 20.27.24.png renamed to Euler a_21.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187167 - 05-05-2023 20.27.27.png renamed to Euler a_22.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187168 - 05-05-2023 20.27.31.png renamed to Euler a_23.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187169 - 05-05-2023 20.27.34.png renamed to Euler a_24.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3017187170 - 05-05-2023 20.27.37.png renamed to Euler a_25.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3981570799 - 05-05-2023 20.24.11.png renamed to Euler a_26.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3981570800 - 05-05-2023 20.24.17.png renamed to Euler a_27.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\3981570801 - 05-05-2023 20.24.23.png renamed to Euler a_28.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952862 - 05-05-2023 20.27.41.png renamed to Euler a_29.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952863 - 05-05-2023 20.27.44.png renamed to Euler a_30.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952864 - 05-05-2023 20.27.48.png renamed to Euler a_31.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952865 - 05-05-2023 20.27.51.png renamed to Euler a_32.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952866 - 05-05-2023 20.27.55.png renamed to Euler a_33.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952867 - 05-05-2023 20.27.58.png renamed to Euler a_34.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952868 - 05-05-2023 20.28.01.png renamed to Euler a_35.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\720952869 - 05-05-2023 20.28.05.png renamed to Euler a_36.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\735044469 - 05-05-2023 20.19.42.png renamed to Euler a_37.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\735044470 - 05-05-2023 20.19.55.png renamed to Euler a_38.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\751755346 - 05-05-2023 20.22.45.png renamed to Euler a_39.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\751755347 - 05-05-2023 20.23.03.png renamed to Euler a_40.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\751755348 - 05-05-2023 20.23.21.png renamed to Euler a_41.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\751755349 - 05-05-2023 20.23.39.png renamed to Euler a_42.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\910504420 - 05-05-2023 20.26.47.png renamed to Euler a_43.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\910504421 - 05-05-2023 20.26.51.png renamed to Euler a_44.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\910504422 - 05-05-2023 20.26.54.png renamed to Euler a_45.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\910504423 - 05-05-2023 20.26.57.png renamed to Euler a_46.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\933014495 - 05-05-2023 20.21.18.png renamed to Euler a_47.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\933014496 - 05-05-2023 20.21.25.png renamed to Euler a_48.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\933014497 - 05-05-2023 20.21.31.png renamed to Euler a_49.png.
+File C:\AI\Scripts\EXIFRenamer\Dev\933014498 - 05-05-2023 20.21.37.png renamed to Euler a_50.png.
+Script finished.
+Script started.
+Settings: {'delimiter': ' - ', 'keep_original_name': False}
