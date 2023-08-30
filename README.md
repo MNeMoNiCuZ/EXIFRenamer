@@ -18,3 +18,6 @@ In the settings.ini-file you can choose how to separate the original name from t
 The included EXIFRenamer.bat-file can be used to run or drag/drop the files to, instead of the EXIFRenamer.py, this one should keep the window open if you run into some errors.
 
 ![Demo](https://github.com/MNeMoNiCuZ/EXIFRenamer/assets/60541708/35560636-3418-481e-955c-65ed729f1f59)
+
+# Credits
+It's mostly copypasta from OpenAI's GPT-4, so there's probably some redundancies in the code.
