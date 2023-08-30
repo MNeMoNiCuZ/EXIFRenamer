@@ -11,3 +11,5 @@ Once it detects at least 1 image, it will try to locate EXIF metadata from this 
 The user then gets to choose which data to add to the file name, and if it should be added as a prefix or suffix.
 
 In the settings.ini-file you can choose how to separate the original name from the new prefix/suffix, and if it should keep the original name at all.
+
+The included EXIFRenamer.bat-file can be used to run or drag/drop the files to, instead of the EXIFRenamer.py, this one should keep the window open if you run into some errors.
