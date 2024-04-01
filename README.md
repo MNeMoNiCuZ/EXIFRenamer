@@ -1,23 +1,13 @@
 # EXIFRenamer
-This is a Python script to rename files based to EXIF data.
-Currently only reads .PNG-files.
+EXIFRenamer is a Python script designed for batch renaming image files based on their EXIF metadata. At present, the script supports only .PNG files. It is particularly useful for organizing images generated with Stable Diffusion (Automatic 1111) by incorporating relevant EXIF data directly into the file names. This functionality allows for quick identification of images based on various parameters such as sampling method, checkpoint model, and more, without the need to view the file's metadata.
 
-The intention is to use this to batch-rename images generated with Stable Diffusion (Automatic 1111), based on the data you need.
-Example: Maybe you want to at a glance see which files are generated with which sampling method, or checkpoint model.
+# How to Use
+To rename files using EXIFRenamer, you can either drag and drop files or folders onto the script or run the script through a command-line interface, where it will prompt you to enter a file path. Upon detecting at least one image, the script scans for EXIF metadata including, but not limited to, Positive, Negative, Steps, Sampler, CFG scale, Seed, Size, Model, Denoising strength, Clip skip, Hires upscale, Hires steps, Hires upscaler, and Lora hashes.
 
-# How to use
-Drag/drop files or folders onto the script.
-Alternatively you can run the script and it will ask you for a file path.
+Users are given the option to select which metadata fields to incorporate into the file name and to specify whether this information should be added as a prefix or a suffix.
 
-If it detects at least 1 image, it will try to find some EXIF metadata from this list: [Positive, Negative, Steps, Sampler, CFG scale, Seed, Size, Model, Denoising strength, Clip skip, Hires upscale, Hires steps, Hires upscaler, Lora hashes].
+Configuration options, such as how to delimiter the original name from the added prefix/suffix and whether to retain the original name, can be adjusted in the `settings.ini` file.
 
-The user then chooses which data to add to the file name, and if it should be added as a prefix or suffix.
-
-In the settings.ini-file you can choose how to separate the original name from the new prefix/suffix, and if it should keep the original name at all.
-
-The included EXIFRenamer.bat-file can be used to run or drag/drop the files to, instead of the EXIFRenamer.py, this one should keep the window open if you run into some errors.
+For ease of use, an `EXIFRenamer.bat` file is included. This batch file can be executed directly or used as a drag-and-drop target for files and folders. It is designed to keep the command window open, which is helpful for troubleshooting any errors encountered during the renaming process.
 
 ![Demo](https://github.com/MNeMoNiCuZ/EXIFRenamer/assets/60541708/35560636-3418-481e-955c-65ed729f1f59)
-
-# Credits
-It's mostly copypasta from OpenAI's GPT-4, so there's probably some redundancies in the code.
